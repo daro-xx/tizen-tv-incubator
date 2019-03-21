@@ -1,0 +1,98 @@
+* {
+    font-family: Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 1920px;
+    height: 1080px;
+    background: url(images/background.png) no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-size: 50px;
+    color: #fff;
+}
+
+input {
+    height: 160px;
+    width: 1046px;
+    opacity: 0.8;
+    padding: 10px;
+    font-size: 140px;
+}
+
+button {
+    padding: 0 40px 23px 40px;
+    font-size: 100px;
+    border-radius: 20px;
+    opacity: 0.8;
+    border: 0;
+}
+
+.title {
+    font-size: 160px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.focused input {
+    height: 156px;
+    width: 1042px;
+}
+
+.go {
+    margin: 20px;
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255, 0);
+}
+
+.details-trailer {
+    top: 0;
+    left: 0;
+    width: 960px;
+    height: 540px;
+    z-index: 1;
+}
+
+.focused {
+    border: 2px solid blue;
+}
+
+.screen {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.details {
+    justify-content: space-between;
+}
+
+.details-side {
+    width: 300px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.details-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.form {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+

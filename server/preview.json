@@ -1,0 +1,18 @@
+{
+    "sections": [
+        {
+            "title": "Recommended",
+            "tiles": [
+                {
+                    "title": "Samsung QE75Q6FNA",
+                    "subtitle": "2018",
+                    "image_url": "thumb.png",
+                    "image_ratio": "16by9",
+                    "action_data": "QE75Q6FNA",
+                    "is_playable": true
+                }
+            ]
+        }
+    ]
+}
+ 
